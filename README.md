@@ -23,3 +23,16 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 ```bash
 pip install torch-geometric
 ```
+
+3. Install Additional Libraries for GNN (Based on your environment)
+
+```bash
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.4.0+cu121.html
+```
+
+4. Install Other Packages
+
+```bash
+pip install -r requirements.txt
+```
+
