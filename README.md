@@ -12,13 +12,13 @@ The code is based on [Officail PyTorch Geometric](https://pytorch-geometric.read
 
 ## Installation
 
-1. Install PyTorch first (with CUDA 12.1)
+1. Install PyTorch (with CUDA 12.1) [(Official Doc)](https://pytorch.org/get-started/locally/)
 
 ```bash
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 ```
 
-2. Install PyTorch Geometric
+2. Install PyTorch Geometric [(Official Doc)](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html)
 
 ```bash
 pip install torch-geometric
